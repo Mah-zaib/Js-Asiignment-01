@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <div id="main" class="card" >
+                    <div class="card-content">
+                        <span class="card-title">Add Keyphrase</span>
+                         <h3>and we'll tell you how to optimize for it</h3>
+                         <div class="row">
+                          <form id="task-form">
+                              <div class="input-field col s12">
+                                 <input type="text" id="task" placeholder="Add Keyphrase Here" name="task ">
+                              </div>
+                               <input type="button" id="btn" value="Analyze"
+                               class="btn"> 
+                          </form>
+                         </div>
+                        
+                  </div>
+                <div class="card-action">
+                    <div class="progress-container">
+                     <div class="progress" id="progress"></div>
+                     <div class="circle active"></div>
+                     <div class="circle"></div>
+                     <div class="circle"></div>
+                     <div class="circle"></div>
+                     <div class="circle"></div>
+                
+                    </div>
+                   <div class="titles">
+                    <!-- <button id="btn">add items</button> -->
+                     <ul id="collection">
+                       <!-- <li>crawling web <span>...0%</span></li>
+                       <li>scraping content</li> 
+                       <li>Semantic Modeling</li>
+                       <li>Natural Language Processing</li>    
+                       <li>Competetive Analysis</li> --> 
+                    </ul>
+                   </div>
+                   <div class ="percentage-container">
+                        <div id="increase" class="increase"></div>
+                        <div id="number">0</div>
+                        <div id="number">0</div>
+                        <div id="number">0</div>
+                        <div id="number">0</div>
+                        <div id="number">0</div>   
+                   </div>
+                    
+                </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
